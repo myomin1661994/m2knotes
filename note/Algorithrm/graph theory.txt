@@ -1,0 +1,80 @@
+Grap theory
+
+Grap theroy is study of the properties and application
+of graphs
+
+
+node to represent -> article 
+edge is represent -> relationship
+
+Type of Graphs
+
+ Undirected Graph is sample count 
+for example  node is city and edgs is city
+and count the path
+(u, v) -> (v, u)
+
+Directed Graph (Digraph)
+
+only can go (u, v)
+for example give the gift to other and receive the 
+gift from other
+  
+Weighted Graphs
+
+ edges  on the graph contain the arbitrary value(1, 2, 3)
+with represent an cost, distance, quantity, etc
+
+->(u, v, w) -the grap know where the come form and where the go
+whether the graph is directed or undirected
+
+Specail Graphs
+	=> Tree
+		Tree is an undirected graph with no cycle
+		Equivalently, n and n-1
+
+	=>Rooted Tree
+		tree with designated root node
+		edge are points away from or toward the root node
+		edge are away from the root -> arborescence (out tree) 
+		edge are forwar to the root - > anit arborescence(int tree)
+	=> Directed Acycli Graphs(DAGS)
+		direct graph with no cycle
+		dependencies structure
+		all are out tree but not all are out tree
+
+	=> Bipartite Graph
+		splite into two group, every edge is connect to the two group(u, v)
+		
+	=>Complete Graphs
+		unique edge between every pair of nodes
+		complete n verticese Kn
+		Testing algorithm
+
+Representing Graps
+
+Adjacency Matrix
+Adjacency List
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

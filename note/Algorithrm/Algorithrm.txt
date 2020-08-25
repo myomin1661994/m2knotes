@@ -1,0 +1,67 @@
+Find the longeset word in the string algorithm
+
+1 -> beginner solution
+
+function findthelongestword(str){
+	var words = str.split(' '); // It will return the variable with array
+	var maxlength = 0;
+	for (var i = 0; i <  words.length; i++){
+		if(words[i].length > maxlength){
+			maxlength = word[i].length;
+	}
+}
+retrun maxlength;
+
+}
+
+2-> Intemediate level
+
+function findLongestword(str){
+ return str.split(" ").reduce(function(a, b){
+  return Math.max(a, b.length)
+ },0);
+}
+
+console.log(findLongestword("finding the longeset word in the world"));
+console.log(findLongestword("finding the shorttest wordkin dklfsjdfsdklfjsdfjlsdfsdf"));
+
+3-> 
+
+--------------------------------------
+Reverse Word
+
+1->
+function reverseString(str){
+  str = str.split('');
+  str = str.reverse('');
+  str = str.join('');
+  
+  return str
+}
+
+console.log(reverseString("hello"));
+console.log(reverseString("Howdy"));
+console.log(reverseString("Greetings from Earth"));
+
+
+2->function reverseString(str){
+  var newStr = "";
+  for(var i = str.length - 1; i >= 0; i-- ){
+      newStr += str[i];
+  }
+  return newStr;
+}
+
+console.log(reverseString("hello"));
+console.log(reverseString("Howdy"));
+console.log(reverseString("Greetings from Earth"));
+
+3->
+function reverseString(str){
+   return str.split('').reverse().join('');
+}
+
+console.log(reverseString("hello"));
+console.log(reverseString("Howdy"));
+console.log(reverseString("Greetings from Earth"));
+
